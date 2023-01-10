@@ -55,6 +55,7 @@ header {
   background-image: url("../images/header-shapes\ mobile@2x.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom-left-radius: 5rem;
 }
 
 .first-page .first-page-container {
