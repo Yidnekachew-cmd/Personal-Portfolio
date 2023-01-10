@@ -91,6 +91,7 @@ header {
   color: #7f8cff;
   margin-bottom: 1rem;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .first-page .icons {
