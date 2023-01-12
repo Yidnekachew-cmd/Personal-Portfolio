@@ -52,7 +52,7 @@ header {
   height: auto;
   display: flex;
   justify-content: center;
-  background-image: url("../images/header-shapes\ mobile@2x.svg");
+  background-image: url(".. /images/header-shapes\ mobile@2x.svg");
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 5rem;
@@ -63,7 +63,7 @@ header {
   width: 90%;
   height: auto;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -101,7 +101,7 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 1em;
+  gap: 1.5em;
   cursor: pointer;
   list-style-type: none;
   padding-bottom: 5rem;
@@ -293,7 +293,7 @@ header {
 .about-content .about-icons {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 1.5rem;
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;
@@ -311,13 +311,13 @@ header {
   color: #396df2;
   cursor: pointer;
   border: 1px solid #396df2;
-  height: 7vh;
+  height: 6vh;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 1rem;
   width: max-content;
-  padding: 1.2rem;
+  padding: 1rem;
 }
 
 .about-btn:hover {
@@ -349,15 +349,15 @@ header {
 }
 
 .lang-title h3 {
-  font-weight: 600;
-  font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 1.3rem;
   line-height: 24px;
   color: #000;
   padding-bottom: 1rem;
 }
 
 .lang-title img {
-  height: 6vh;
+  height: 4.7vh;
 }
 
 .languages .lang {
@@ -374,12 +374,16 @@ header {
   gap: 1rem;
   background: #f7f7f9;
   border-radius: 8px;
-  height: 13vh;
+  height: 11vh;
   padding-left: 0.5rem;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
 }
 
 .hr-line {
-  background: #dfe1e6;
+  background: #e5e5e5;
 }
 
 .framework {
@@ -393,14 +397,14 @@ header {
 }
 
 .framework .frame-title {
-  font-weight: 600;
-  font-size: 1.4rem;
+  font-weight: 500;
+  font-size: 1.3rem;
   line-height: 24px;
   color: #000;
 }
 
 .framework img {
-  height: 5.5vh;
+  height: 4.5vh;
 }
 
 .skill {
@@ -414,12 +418,12 @@ header {
 }
 
 .skill-title {
-  font-weight: 600;
-  font-size: 1.4rem;
+  font-weight: 500;
+  font-size: 1.3rem;
   line-height: 24px;
   color: #000;
 }
 
 .skill img {
-  height: 5.5vh;
+  height: 4.5vh;
 }
