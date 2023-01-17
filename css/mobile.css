@@ -445,3 +445,23 @@ header {
   margin: 0 auto;
   padding-bottom: 4rem;
 }
+
+.footer-info .footer-title {
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  padding-top: 13rem;
+  padding-bottom: 1rem;
+}
+
+.footer-info .footer-para {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  width: 95%;
+  color: #ebebff;
+  padding-bottom: 5rem;
+}
