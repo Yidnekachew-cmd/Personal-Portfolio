@@ -206,6 +206,7 @@ header {
   color: #6070ff;
   padding-bottom: 2rem;
   cursor: pointer;
+
 }
 
 .card-lang .lang {
@@ -213,9 +214,11 @@ header {
   background: #ebebff;
   border-radius: 8px;
   width: min-content;
-  padding: 0.7rem;
-  height: 3vh;
+  /*padding: 0.7rem;*/
+  padding: 6px;
+  /*height: 3vh;*/
   align-items: center;
+  margin-right: 1rem;
 }
 
 .card-btn {
