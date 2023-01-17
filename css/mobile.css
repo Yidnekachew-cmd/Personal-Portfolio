@@ -498,3 +498,25 @@ header {
   line-height: 24px;
   color: #b3bac5;
 }
+
+.form-btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  border: 1px solid #396df2;
+  background: #fff;
+  width: 35%;
+  height: 8vh;
+  align-items: center;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  color: #fff;
+  background-color: #8bdfdf;
+  transition: 1s ease-in-out;
+}
