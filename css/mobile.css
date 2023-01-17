@@ -52,7 +52,7 @@ header {
   height: auto;
   display: flex;
   justify-content: center;
-  background-image: url(".. /images/header-shapes\ mobile@2x.svg");
+  background-image: url("../images/header-shapes\ mobile@2x.svg");
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom-left-radius: 5rem;
@@ -426,4 +426,98 @@ header {
 
 .skill img {
   height: 4.5vh;
+}
+
+.footer-container {
+  height: auto;
+  width: 100%;
+  background: #6070ff;
+  background-image:
+    url("../images/contact\ form\ background\ shapes.svg"),
+    url("../images/contact\ form\ shapes-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 4rem;
+  margin-top: 5rem;
+}
+
+.footer-info {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+.footer-info .footer-title {
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 52px;
+  text-align: center;
+  color: #fff;
+  padding-top: 13rem;
+  padding-bottom: 1rem;
+}
+
+.footer-info .footer-para {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  width: 95%;
+  color: #ebebff;
+  padding-bottom: 5rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1.7rem;
+}
+
+.contact-form input {
+  width: 100%;
+  height: 6.5vh;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.contact-form textarea {
+  border-radius: 0.5rem;
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
+
+.form-btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  border: 1px solid #396df2;
+  background: #fff;
+  width: 45%;
+  height: 8vh;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  color: #fff;
+  background-color: #8bdfdf;
+  transition: 1s ease-in-out;
 }

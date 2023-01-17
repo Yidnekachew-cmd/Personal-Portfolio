@@ -197,5 +197,56 @@
         </div>
       </div>
     </section>
+    <footer class="footer-container">
+      <div class="footer-info">
+        <h3 class="footer-title">Contact me</h3>
+        <p class="footer-para">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I'd love to help
+          with it
+        </p>
+        <form
+          action="https://formspree.io/f/xayzyzjv"
+          class="contact-form"
+          method="post"
+        >
+          <label for="user_name">
+            <input
+              type="text"
+              class="user-name"
+              name="user_name"
+              id="user_name"
+              placeholder="user_name"
+              required
+              maxlength="30"
+            />
+          </label>
+          <label for="user_email">
+            <input
+              type="email"
+              class="user-email"
+              name="user_email"
+              id="user_email"
+              placeholder="user_email@gmail.com"
+              required
+            />
+          </label>
+          <label for="message">
+            <textarea
+              type="text"
+              class="user-message"
+              name="user_message"
+              id="user_message"
+              placeholder="Write your message here"
+              required
+              maxlength="500"
+              cols="10"
+              rows="5"
+            ></textarea>
+          </label>
+          <button class="form-btn">Get In Touch</button>
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
