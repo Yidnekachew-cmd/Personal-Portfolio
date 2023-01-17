@@ -198,10 +198,6 @@ header {
 }
 
 .card-content .card-lang {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-  justify-content: flex-start;
   list-style-type: none;
   font-weight: 500;
   font-size: 12px;
@@ -213,8 +209,7 @@ header {
 }
 
 .card-lang .lang {
-  display: flex;
-  justify-content: center;
+  float: left;
   background: #ebebff;
   border-radius: 8px;
   width: min-content;
