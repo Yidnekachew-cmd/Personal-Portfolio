@@ -432,7 +432,8 @@ header {
   height: auto;
   width: 100%;
   background: #6070ff;
-  background-image: url("../images/contact\ form\ background\ shapes.svg"),
+  background-image:
+    url("../images/contact\ form\ background\ shapes.svg"),
     url("../images/contact\ form\ shapes-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
