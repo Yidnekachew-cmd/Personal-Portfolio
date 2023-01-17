@@ -465,3 +465,36 @@ header {
   color: #ebebff;
   padding-bottom: 5rem;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1.7rem;
+}
+
+.contact-form input {
+  width: 100%;
+  height: 6.5vh;
+  border-radius: 1rem;
+  border: none;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.contact-form textarea {
+  border-radius: 1rem;
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+}
