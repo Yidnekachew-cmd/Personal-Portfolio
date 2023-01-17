@@ -217,6 +217,8 @@
               name="user_name"
               id="user_name"
               placeholder="user_name"
+              required
+              maxlength="30"
             />
           </label>
           <label for="user_email">
@@ -235,11 +237,10 @@
               class="user-message"
               name="user_message"
               id="user_message"
-              cols="50"
-              rows="10"
-            >
-Write your message here</textarea
-            >
+              placeholder="Write your message here"
+              required
+              maxlength="500"
+            ></textarea>
           </label>
           <button class="form-btn">Get In Touch</button>
         </form>

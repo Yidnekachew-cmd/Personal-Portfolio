@@ -432,8 +432,7 @@ header {
   height: auto;
   width: 100%;
   background: #6070ff;
-  background-image:
-    url("../images/contact\ form\ background\ shapes.svg"),
+  background-image: url("../images/contact\ form\ background\ shapes.svg"),
     url("../images/contact\ form\ shapes-mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -480,7 +479,7 @@ header {
 .contact-form input {
   width: 100%;
   height: 6.5vh;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   border: none;
   padding: 1rem;
   font-weight: 400;
@@ -490,7 +489,7 @@ header {
 }
 
 .contact-form textarea {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   border: none;
   width: 100%;
   padding: 1rem;
@@ -509,10 +508,10 @@ header {
   color: #396df2;
   border: 1px solid #396df2;
   background: #fff;
-  width: 35%;
+  width: 45%;
   height: 8vh;
   align-items: center;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
