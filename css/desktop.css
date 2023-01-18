@@ -17,4 +17,21 @@
     text-decoration: none;
     color: #344563;
   }
+
+  .first-page {
+    width: 98%;
+    height: 100vh;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    background-image: url("../images/Header\ bg@2x.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 10rem;
+  }
+
+  .first-page .first-page-container {
+    width: 65%;
+    height: auto;
+    margin-top: 6rem;
+  }
 }
