@@ -96,4 +96,11 @@
   .card-content .card-lang {
     padding-bottom: 2.5rem;
   }
+
+  .about-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
 }
