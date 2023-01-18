@@ -34,4 +34,16 @@
     height: auto;
     margin-top: 6rem;
   }
+
+  .first-page-container .para-title {
+    width: 50%;
+    font-size: 48px;
+    line-height: 60px;
+    color: #091e42;
+  }
+
+  .first-page-container .para-discription {
+    font-size: 20px;
+    line-height: 28px;
+  }
 }
