@@ -53,27 +53,25 @@ header {
 
 .first-page {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   background-image: url("../images/header-shapes\ mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   border-bottom-left-radius: 5rem;
 }
 
 .first-page .first-page-container {
   width: 90%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  height: max-content;
+  margin: 0 auto;
 }
 
 .first-page .para-title {
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.5em;
   line-height: 52px;
   width: 70%;
   height: max-content;
@@ -115,7 +113,7 @@ header {
   background: #e5e5e5;
   width: 100%;
   height: auto;
-  padding: 8rem 0;
+  padding: 3rem 0;
   display: flex;
   flex-direction: column;
   gap: 8rem;
@@ -441,7 +439,7 @@ footer {
 }
 
 .footer-container {
-  height: auto;
+  min-height: 100vh;
   width: 100%;
   background: #6070ff;
   background-image: url("../images/contact\ form\ background\ shapes.svg"),
@@ -449,13 +447,13 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 4rem;
-  margin-top: 5rem;
+  overflow: hidden;
 }
 
 .footer-info {
   width: 90%;
   margin: 0 auto;
-  padding-bottom: 4rem;
+  padding-bottom: 0.5rem;
 }
 
 .footer-info .footer-title {
@@ -464,8 +462,8 @@ footer {
   line-height: 52px;
   text-align: center;
   color: #fff;
-  padding-top: 13rem;
-  padding-bottom: 1rem;
+  padding-top: 10.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .footer-info .footer-para {
@@ -475,7 +473,7 @@ footer {
   text-align: center;
   width: 95%;
   color: #ebebff;
-  padding-bottom: 5rem;
+  padding-bottom: 9rem;
 }
 
 .contact-form {
@@ -485,7 +483,7 @@ footer {
   gap: 0.8rem;
   width: 90%;
   margin: 0 auto;
-  margin-top: 1.7rem;
+  margin-top: -6rem;
 }
 
 .contact-form input {
@@ -525,6 +523,7 @@ footer {
   align-items: center;
   border-radius: 0.5rem;
   cursor: pointer;
+  margin-bottom: 3rem;
 }
 
 .form-btn:hover {

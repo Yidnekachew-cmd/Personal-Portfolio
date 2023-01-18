@@ -19,10 +19,10 @@
   }
 
   .first-page {
-    width: 98%;
-    height: 100vh;
+    width: 100%;
+    min-height: 100vh;
     margin-top: 3rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     background-image: url("../images/Header\ bg@2x.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,12 +31,11 @@
 
   .first-page .first-page-container {
     width: 65%;
-    height: auto;
     margin-top: 6rem;
   }
 
   .first-page-container .para-title {
-    width: 50%;
+    /* width: 50%; */
     font-size: 48px;
     line-height: 60px;
     color: #091e42;
@@ -158,16 +157,29 @@
     padding-left: 1rem;
   }
 
+  /* footer {
+    height: max-content;
+  } */
+
   .footer-container {
     background-image: url("../images/contact\ form\ background\ shapes.svg"),
       url("../images/contact\ form\ background\ shapes@2x.svg");
     background-repeat: no-repeat;
     background-size: cover;
     border-top-left-radius: 8rem;
+    min-height: 100vh;
   }
 
   .footer-info {
     width: 40%;
+  }
+
+  .footer-info .footer-title {
+    padding-top: 6rem;
+  }
+
+  .contact-form {
+    margin-top: 0rem;
   }
 
   .footer-info .footer-para {
@@ -186,5 +198,6 @@
   .form-btn {
     margin: 0 auto;
     width: 40%;
+    margin-bottom: 2rem;
   }
 }
