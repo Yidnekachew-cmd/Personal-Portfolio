@@ -46,4 +46,17 @@
     font-size: 20px;
     line-height: 28px;
   }
+
+  .cards-container .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 80%;
+  }
+
+  .card .card-img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    padding-left: 1rem;
+  }
 }
