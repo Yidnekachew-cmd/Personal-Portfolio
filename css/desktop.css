@@ -1,0 +1,20 @@
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 3.5rem;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: #344563;
+  }
+}
