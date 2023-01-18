@@ -22,6 +22,7 @@
     width: 100%;
     min-height: 100vh;
     margin-top: 3rem;
+
     /* margin-left: 2rem; */
     background-image: url("../images/Header\ bg@2x.svg");
     background-repeat: no-repeat;
@@ -66,7 +67,6 @@
 
   .card .card-img {
     padding: 1rem;
-
     width: 48%;
   }
 
@@ -162,7 +162,8 @@
   } */
 
   .footer-container {
-    background-image: url("../images/contact\ form\ background\ shapes.svg"),
+    background-image:
+      url("../images/contact\ form\ background\ shapes.svg"),
       url("../images/contact\ form\ background\ shapes@2x.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -179,7 +180,8 @@
   }
 
   .contact-form {
-    margin-top: 0rem;
+    margin-top: 0;
+    gap: 1.5rem;
   }
 
   .footer-info .footer-para {
@@ -189,10 +191,6 @@
     text-align: center;
     width: 100%;
     padding-bottom: 1rem;
-  }
-
-  .contact-form {
-    gap: 1.5rem;
   }
 
   .form-btn {
