@@ -47,31 +47,41 @@
     line-height: 28px;
   }
 
+  .desktop {
+    display: flex;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .cards-container {
+    padding: 5rem 0;
+    gap: 10rem;
+  }
+
   .cards-container .card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    display: flex;
     width: 80%;
   }
 
   .card .card-img {
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
-    padding-left: 1rem;
+    padding: 1rem;
+
+    width: 48%;
   }
 
   .card-img img {
-    width: min-content;
-    min-height: 50vh;
+    width: max-content;
+    height: 100%;
     object-fit: cover;
     overflow: hidden;
+    object-position: center;
   }
 
   .cards-container .card-content {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
     height: 100%;
-    width: 90%;
+    width: 48%;
     padding-top: 2rem;
   }
 

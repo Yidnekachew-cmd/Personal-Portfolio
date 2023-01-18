@@ -121,6 +121,10 @@ header {
   gap: 8rem;
 }
 
+.desktop {
+  display: none;
+}
+
 .cards-container .card {
   display: grid;
   grid-template-columns: auto;
@@ -221,7 +225,7 @@ header {
   justify-content: center;
   background: #ebebff;
   border-radius: 8px;
-  width: min-content;
+  width: max-content;
   padding: 0.7rem;
   height: 3vh;
   align-items: center;
