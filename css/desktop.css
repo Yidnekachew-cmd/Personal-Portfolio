@@ -165,4 +165,13 @@
     width: 100%;
     padding-bottom: 1rem;
   }
+
+  .contact-form {
+    gap: 1.5rem;
+  }
+
+  .form-btn {
+    margin: 0 auto;
+    width: 40%;
+  }
 }
