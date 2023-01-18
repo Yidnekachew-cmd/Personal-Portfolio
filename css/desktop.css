@@ -144,4 +144,25 @@
   .skill {
     padding-left: 1rem;
   }
+
+  .footer-container {
+    background-image: url("../images/contact\ form\ background\ shapes.svg"),
+      url("../images/contact\ form\ background\ shapes@2x.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 8rem;
+  }
+
+  .footer-info {
+    width: 40%;
+  }
+
+  .footer-info .footer-para {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
 }
