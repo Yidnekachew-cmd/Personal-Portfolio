@@ -11,7 +11,6 @@
 body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  background: #fff;
 }
 
 header {
@@ -20,6 +19,7 @@ header {
   align-items: center;
   width: 90%;
   margin: 1em auto;
+  background: #fff;
 }
 
 .header-title {
@@ -29,6 +29,10 @@ header {
   color: #6070ff;
   cursor: pointer;
   text-decoration: none;
+}
+
+.nav-links {
+  display: none;
 }
 
 .hamburger {
@@ -52,24 +56,23 @@ header {
   height: auto;
   display: flex;
   justify-content: center;
-  background-image: url("../images/header-shapes\ mobile@2x.svg");
+  background-image: url("../images/header-shapes\ mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
+
+  /* margin-bottom: 3rem; */
   border-bottom-left-radius: 5rem;
-  margin-bottom: 2rem;
 }
 
 .first-page .first-page-container {
   width: 90%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  height: max-content;
+  margin: 0 auto;
 }
 
 .first-page .para-title {
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.5em;
   line-height: 52px;
   width: 70%;
   height: max-content;
@@ -111,10 +114,14 @@ header {
   background: #e5e5e5;
   width: 100%;
   height: auto;
-  padding: 8rem 0;
+  padding: 3rem 0;
   display: flex;
   flex-direction: column;
   gap: 8rem;
+}
+
+.desktop {
+  display: none;
 }
 
 .cards-container .card {
@@ -217,7 +224,7 @@ header {
   justify-content: center;
   background: #ebebff;
   border-radius: 8px;
-  width: min-content;
+  width: max-content;
   padding: 0.7rem;
   height: 3vh;
   align-items: center;
@@ -252,10 +259,10 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: #fff;
 }
 
 .about-container {
-  background: #fff;
   width: 90%;
   height: auto;
   padding-bottom: 6rem;
@@ -428,8 +435,12 @@ header {
   height: 4.5vh;
 }
 
+footer {
+  background: #fff;
+}
+
 .footer-container {
-  height: auto;
+  min-height: 100vh;
   width: 100%;
   background: #6070ff;
   background-image:
@@ -438,13 +449,13 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   border-top-left-radius: 4rem;
-  margin-top: 5rem;
+  overflow: hidden;
 }
 
 .footer-info {
   width: 90%;
   margin: 0 auto;
-  padding-bottom: 4rem;
+  padding-bottom: 0.5rem;
 }
 
 .footer-info .footer-title {
@@ -453,8 +464,8 @@ header {
   line-height: 52px;
   text-align: center;
   color: #fff;
-  padding-top: 13rem;
-  padding-bottom: 1rem;
+  padding-top: 10.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .footer-info .footer-para {
@@ -464,7 +475,7 @@ header {
   text-align: center;
   width: 95%;
   color: #ebebff;
-  padding-bottom: 5rem;
+  padding-bottom: 9rem;
 }
 
 .contact-form {
@@ -474,7 +485,7 @@ header {
   gap: 0.8rem;
   width: 90%;
   margin: 0 auto;
-  margin-top: 1.7rem;
+  margin-top: -6rem;
 }
 
 .contact-form input {
@@ -514,6 +525,7 @@ header {
   align-items: center;
   border-radius: 0.5rem;
   cursor: pointer;
+  margin-bottom: 3rem;
 }
 
 .form-btn:hover {
