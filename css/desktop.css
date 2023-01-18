@@ -59,4 +59,41 @@
     grid-row: 1 / 2;
     padding-left: 1rem;
   }
+
+  .card-img img {
+    width: 100%;
+  }
+
+  .cards-container .card-content {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    height: max-content;
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  .card-content .card-title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    padding-bottom: 1.5rem;
+  }
+
+  .card-content .card-info {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    list-style-type: none;
+    padding-bottom: 1rem;
+  }
+
+  .card-content .card-para {
+    font-size: 16px;
+    padding-bottom: 1.5rem;
+  }
+
+  .card-content .card-lang {
+    padding-bottom: 2.5rem;
+  }
 }
