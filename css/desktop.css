@@ -34,7 +34,6 @@
   }
 
   .first-page-container .para-title {
-    /* width: 50%; */
     font-size: 48px;
     line-height: 60px;
     color: #091e42;
@@ -78,6 +77,7 @@
 
   .card-img img:hover {
     transform: scale(1.5);
+    transition: 1s ease-in-out;
   }
 
   .cards-container .card-content {
