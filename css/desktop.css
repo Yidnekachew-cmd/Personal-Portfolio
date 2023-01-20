@@ -76,6 +76,10 @@
     object-position: center;
   }
 
+  .card-img img:hover {
+    transform: scale(1.5);
+  }
+
   .cards-container .card-content {
     height: 100%;
     width: 48%;
@@ -160,8 +164,7 @@
   } */
 
   .footer-container {
-    background-image:
-      url("../images/contact\ form\ background\ shapes.svg"),
+    background-image: url("../images/contact\ form\ background\ shapes.svg"),
       url("../images/contact\ form\ background\ shapes@2x.svg");
     background-repeat: no-repeat;
     background-size: cover;
