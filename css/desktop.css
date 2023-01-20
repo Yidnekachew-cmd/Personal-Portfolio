@@ -1,4 +1,8 @@
 @media (min-width: 768px) {
+  .header-title:hover {
+    transform: rotate(45deg);
+  }
+
   .hamburger {
     display: none;
   }
@@ -34,7 +38,6 @@
   }
 
   .first-page-container .para-title {
-    /* width: 50%; */
     font-size: 48px;
     line-height: 60px;
     color: #091e42;
@@ -74,6 +77,11 @@
     object-fit: cover;
     overflow: hidden;
     object-position: center;
+  }
+
+  .card-img img:hover {
+    transform: scale(1.5);
+    transition: 1s ease-in-out;
   }
 
   .cards-container .card-content {
@@ -155,10 +163,6 @@
     padding-left: 1rem;
   }
 
-  /* footer {
-    height: max-content;
-  } */
-
   .footer-container {
     background-image:
       url("../images/contact\ form\ background\ shapes.svg"),
@@ -189,6 +193,10 @@
     text-align: center;
     width: 100%;
     padding-bottom: 1rem;
+  }
+
+  .contact-form input:hover {
+    transform: translate(10px);
   }
 
   .form-btn {
