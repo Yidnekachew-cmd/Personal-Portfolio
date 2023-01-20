@@ -1,0 +1,199 @@
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 3.5rem;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .first-page {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 3rem;
+    background-image: url("../images/Header\ bg@2x.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 10rem;
+  }
+
+  .first-page .first-page-container {
+    width: 65%;
+    margin-top: 6rem;
+  }
+
+  .first-page-container .para-title {
+    /* width: 50%; */
+    font-size: 48px;
+    line-height: 60px;
+    color: #091e42;
+  }
+
+  .first-page-container .para-discription {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .desktop {
+    display: flex;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .cards-container {
+    padding: 5rem 0;
+    gap: 10rem;
+  }
+
+  .cards-container .card {
+    display: flex;
+    width: 80%;
+  }
+
+  .card .card-img {
+    padding: 1rem;
+    width: 48%;
+  }
+
+  .card-img img {
+    width: max-content;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: center;
+  }
+
+  .cards-container .card-content {
+    height: 100%;
+    width: 48%;
+    padding-top: 2rem;
+  }
+
+  .card-content .card-title {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+    padding-bottom: 1.5rem;
+  }
+
+  .card-content .card-info {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    list-style-type: none;
+    padding-bottom: 1rem;
+  }
+
+  .card-content .card-para {
+    font-size: 16px;
+    padding-bottom: 1.5rem;
+  }
+
+  .card-content .card-lang {
+    padding-bottom: 2.5rem;
+  }
+
+  .about-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .about-container .about-content {
+    padding-top: 8rem;
+    width: 90%;
+  }
+
+  .about-lang {
+    width: 100%;
+    margin-top: 7rem;
+  }
+
+  .about-content .about-icons {
+    padding: 1.5rem 0;
+  }
+
+  .lang-title {
+    padding-left: 1rem;
+  }
+
+  .languages .lang {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    gap: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .lang .langs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    height: 18vh;
+    padding-top: 0.5rem;
+  }
+
+  .framework,
+  .skill {
+    padding-left: 1rem;
+  }
+
+  /* footer {
+    height: max-content;
+  } */
+
+  .footer-container {
+    background-image:
+      url("../images/contact\ form\ background\ shapes.svg"),
+      url("../images/contact\ form\ background\ shapes@2x.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 8rem;
+    min-height: 100vh;
+  }
+
+  .footer-info {
+    width: 40%;
+  }
+
+  .footer-info .footer-title {
+    padding-top: 6rem;
+  }
+
+  .contact-form {
+    margin-top: 0;
+    gap: 1.5rem;
+  }
+
+  .footer-info .footer-para {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .form-btn {
+    margin: 0 auto;
+    width: 40%;
+    margin-bottom: 2rem;
+  }
+}
