@@ -1,8 +1,8 @@
 @media (min-width: 768px) {
-  .header-title:hover{ 
+  .header-title:hover {
     transform: rotate(45deg);
   }
-  
+
   .hamburger {
     display: none;
   }
@@ -164,7 +164,8 @@
   }
 
   .footer-container {
-    background-image: url("../images/contact\ form\ background\ shapes.svg"),
+    background-image:
+      url("../images/contact\ form\ background\ shapes.svg"),
       url("../images/contact\ form\ background\ shapes@2x.svg");
     background-repeat: no-repeat;
     background-size: cover;
