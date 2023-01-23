@@ -41,12 +41,12 @@
 - Technologies used
 
 <!-- LIVE DEMO -->
-<!--
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Link to the deployed project.
 
-- [Live Demo Link](https://yidnekachew-cmd.github.io/Hello-World/)
+- [Live Demo Link](https://yidnekachew-cmd.github.io/Personal-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -72,7 +72,7 @@
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Yidnekachew Kassahun**
 
