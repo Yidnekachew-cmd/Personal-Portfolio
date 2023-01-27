@@ -3,6 +3,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+- [🚀 Loom Video](#loom-video)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -30,9 +31,21 @@
 
 **[Personal Portfolio]** is my first portfolio that includes figma design.
 
+<!-- LOOM VIDEO -->
+
+## 🚀 Loom Video <a name="loom-video"></a>
+
+> Link to the loom video of the project description.
+
+- [Loom Video Link](https://www.loom.com/share/dd58b658d5264f9ea9f8492f22d39c4c)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
+`
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
@@ -48,7 +61,7 @@
 
 - [Live Demo Link](https://yidnekachew-cmd.github.io/Personal-Portfolio/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
