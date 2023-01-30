@@ -36,7 +36,7 @@ header {
 }
 
 .hamburger {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 2px;
   padding-right: 0.2em;
@@ -49,6 +49,56 @@ header {
   background-color: #6070ff;
   border-radius: 8px;
   list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    position: fixed;
+    gap: 0.2rem;
+    right: 2rem;
+    z-index: 20;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    background-color: #fff;
+    transition: 0.7s;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+    background-color: #fff;
+    transition: 0.7s;
+  }
+
+  .nav-links.active {
+    display: flex;
+    flex-direction: column;
+    background: rgba(9, 30, 195, 0.6);
+    backdrop-filter: blur(6px);
+    height: 100%;
+    width: 100%;
+    list-style-type: none;
+    gap: 2rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+  }
 }
 
 .first-page {
