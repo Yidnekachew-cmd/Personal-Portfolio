@@ -51,7 +51,7 @@ header {
   list-style-type: none;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .hamburger {
     display: flex;
     position: fixed;
@@ -73,7 +73,7 @@ header {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-5px) rotate(-45deg);
     background-color: #fff;
-     transition: 0.7s;
+    transition: 0.7s;
   }
 
   .nav-links.active {
