@@ -578,3 +578,107 @@ footer {
   background-color: #8bdfdf;
   transition: 1s ease-in-out;
 }
+
+/* popup */
+
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  /* backdrop-filter: blur(6px);
+  position: fixed;
+  top: 0; */
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.modal-container .modal-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title .close-btn {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.modal-container .card-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  list-style-type: none;
+}
+
+.modal-img img {
+  width: 100%;
+}
+
+.modal-container .card-lang {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  padding-bottom: 2rem;
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+}
+
+.modal-btn {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+}
+
+.live-btn,
+.source-btn {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #396df2;
+  border: 1px solid #396df2;
+  width: 45%;
+  padding: 1.2rem;
+  height: 3vh;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.live-btn span {
+  padding-top: 0.3rem;
+}
+
+.source-btn span {
+  padding-top: 0.3rem;
+}
+
+.modal-container button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.desktop {
+  display: none;
+}

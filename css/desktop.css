@@ -66,6 +66,10 @@
     width: 80%;
   }
 
+  .card:nth-child(even) .card-img {
+    order: 1;
+  }
+
   .card .card-img {
     padding: 1rem;
     width: 48%;
@@ -203,5 +207,32 @@
     margin: 0 auto;
     width: 40%;
     margin-bottom: 2rem;
+  }
+
+  
+  /* Popup */
+
+  .modal-container {
+    /* height: 100%;
+    overflow-y: scroll; */
+  }
+
+  .modal-container .card-para {
+    width: 80%;
+  }
+
+  .modal-container .card-lang {
+    flex-wrap: wrap;
+  }
+
+  .lang-and-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .modal-content {
+    display: flex;
+    gap: 2rem;
   }
 }
