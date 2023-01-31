@@ -53,3 +53,56 @@ const cards = [
     closeBtn: "&times;",
   },
 ];
+
+
+// storing data for mobile part
+const moboCards = [
+  {
+    title: "Tonic",
+    technology: ["Canopy", "Back End Dev", 2015],
+    images: "./images/image1.svg",
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    textPopup:
+      "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus explicabo, nobis quia expedita fugit vel, est, dolorem aperiam error quibusdam itaque amet ipsa placeat numquam dolorum nemo tempore harum minus.",
+    closeBtn: "&times;",
+    languages: ["html", "css", "javaScript"],
+    live: "https://yidnekachew-cmd.github.io/Personal-Portfolio/",
+    source: "git@github.com:Yidnekachew-cmd/Personal-Portfolio.git",
+  },
+  {
+    title: "Multi-Post Stories",
+    technology: ["Canopy", "Back End Dev", 2015],
+    images: "./images/image2.svg",
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+    languages: ["html", "css", "javaScript"],
+    textPopup:
+      "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus explicabo, nobis quia expedita fugit vel, est, dolorem aperiam error quibusdam itaque amet ipsa placeat numquam dolorum nemo tempore harum minus.",
+    closeBtn: "&times;",
+    live: "https://yidnekachew-cmd.github.io/Personal-Portfolio/",
+    source: "git@github.com:Yidnekachew-cmd/Personal-Portfolio.git",
+  },
+  {
+    title: "Tonic",
+    technology: ["Canopy", "Back End Dev", 2015],
+    images: "./images/image3.svg",
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    languages: ["html", "css", "javaScript"],
+    textPopup:
+      "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus explicabo, nobis quia expedita fugit vel, est, dolorem aperiam error quibusdam itaque amet ipsa placeat numquam dolorum nemo tempore harum minus.",
+    closeBtn: "&times;",
+    live: "https://yidnekachew-cmd.github.io/Personal-Portfolio/",
+    source: "git@github.com:Yidnekachew-cmd/Personal-Portfolio.git",
+  },
+  {
+    title: "Multi-Post Stories",
+    technology: ["Canopy", "Back End Dev", 2015],
+    images: "./images/image4.svg",
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required",
+    languages: ["html", "css", "javaScript"],
+    textPopup:
+      "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus explicabo, nobis quia expedita fugit vel, est, dolorem aperiam error quibusdam itaque amet ipsa placeat numquam dolorum nemo tempore harum minus.",
+    closeBtn: "&times;",
+    live: "https://yidnekachew-cmd.github.io/Personal-Portfolio/",
+    source: "git@github.com:Yidnekachew-cmd/Personal-Portfolio.git",
+  },
+];
