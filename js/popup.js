@@ -112,3 +112,35 @@ const body = document.querySelector("body");
 const cardSection = document.querySelector("#cards");
 const desktop = document.querySelector(".desktop");
 const mobile = document.querySelector(".mobile");
+
+// looping through the cards of the desktop to add cards dynamically
+for (let i = 0; i < cards.length; i += 1) {
+  let lang = "";
+  cards[i].languages.forEach((cards) => {
+    lang = `${lang}<li class="${cards}">${cards}</li>`;
+  });
+
+  let tech = "";
+  cards[i].technology.forEach((techn) => {
+    tech = `${tech}<li class="${techn}">${techn}</li>`;
+  });
+
+  desktop.innerHTML += `
+  <div class="card">
+  <div class="card-img">
+    <img src="${cards[i].images}" alt="tonic project image" />
+  </div>
+  <div class="card-content">
+    <h2 class="card-title">${cards[i].title}</h2>
+    <ul class="card-info">
+      ${tech}
+    </ul>
+    <p class="card-para">${cards[i].text}</p>
+    <ul class="card-lang">
+    ${lang}
+    </ul>
+    <button class="card-btn card-btn-${i}">See Project</button>
+  </div>
+</div>
+`;
+}
