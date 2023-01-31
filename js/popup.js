@@ -106,3 +106,9 @@ const moboCards = [
     source: "git@github.com:Yidnekachew-cmd/Personal-Portfolio.git",
   },
 ];
+
+//Class selections
+const body = document.querySelector("body");
+const cardSection = document.querySelector("#cards");
+const desktop = document.querySelector(".desktop");
+const mobile = document.querySelector(".mobile");
