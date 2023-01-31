@@ -144,3 +144,36 @@ for (let i = 0; i < cards.length; i += 1) {
 </div>
 `;
 }
+
+
+// looping through the cards of the mobile to add cards dynamically
+for (let i = 0; i < moboCards.length; i += 1) {
+  let lang = "";
+  moboCards[i].languages.forEach((cards) => {
+    lang = `${lang}<li class="${cards}">${cards}</li>`;
+  });
+
+  let tech = "";
+  moboCards[i].technology.forEach((techn) => {
+    tech = `${tech}<li class="${techn}">${techn}</li>`;
+  });
+
+  mobile.innerHTML += `
+  <div class="card">
+  <div class="card-content">
+    <h2 class="card-title">${moboCards[i].title}</h2>
+    <ul class="card-info">
+     ${tech}
+    </ul>
+    <p class="card-para">${moboCards[i].text}</p>
+    <ul class="card-lang">
+      ${lang}
+    </ul>
+    <button class="card-btn card-${i}">See Project</button>
+  </div>
+  <div class="card-img">
+    <img src="${moboCards[i].images}" alt="tonic project image" />
+    </div>
+    </div
+    `;
+}
