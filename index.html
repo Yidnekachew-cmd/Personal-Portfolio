@@ -135,7 +135,7 @@
               name="user_name"
               id="user_name"
               placeholder="user_name"
-              required
+             
               maxlength="30"
             />
           </label>
@@ -145,11 +145,11 @@
               class="user-email"
               name="user_email"
               id="user_email"
-              placeholder="user_email@gmail.com"
+              placeholder="Email Address"
               required
             />
           </label>
-          
+          <p id="message"></p>
           <label for="message">
             <textarea
               type="text"
@@ -163,8 +163,8 @@
               rows="5"
             ></textarea>
           </label>
-          <div id="message"></div>
-          <button class="form-btn" id="form-btn">Get In Touch</button>
+          
+          <button class="form-btn" id="form-btn" type="submit" onclick="emailValidator()" >Get In Touch</button>
         </form>
       </div>
     </footer>
