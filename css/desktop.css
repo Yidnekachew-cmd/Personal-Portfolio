@@ -66,13 +66,14 @@
     width: 80%;
   }
 
-  .card:nth-child(even) .card-img {
-    order: 1;
-  }
 
   .card .card-img {
     padding: 1rem;
     width: 48%;
+  }
+
+  .card:nth-child(even) .card-img {
+    order: 1;
   }
 
   .card-img img {
@@ -209,11 +210,12 @@
     margin-bottom: 2rem;
   }
 
-  
+
   /* Popup */
 
   .modal-container {
     display: flex;
+
     /* height: 100%;
     overflow-y: scroll; */
   }

@@ -581,10 +581,10 @@ footer {
 
 /* popup */
 
-
 .modal {
   width: 100vw;
   height: 100vh;
+
   /* backdrop-filter: blur(6px);
   position: fixed;
   top: 0; */
@@ -599,7 +599,6 @@ footer {
   background-color: #fff;
   padding: 2rem;
   position: relative;
-  
 }
 
 .modal-container .modal-title {
@@ -685,8 +684,4 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-.desktop {
-  display: none;
 }
