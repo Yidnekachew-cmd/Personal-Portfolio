@@ -13,3 +13,10 @@ formData.addEventListener('submit', (e) => {
 const retrievedObject = localStorage.getItem('userData');
 const getValue = JSON.parse(retrievedObject);
 
+window.addEventListener('load', () => {
+  if (localStorage.getItem('userData')) {
+    document.querySelector('#user_name').value = getValue.userName;
+    document.querySelector('#user_email').value = getValue.userEmail;
+    document.querySelector('#user_message').value = getValue.message;
+  }
+});
