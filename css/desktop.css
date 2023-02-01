@@ -1,6 +1,11 @@
 @media (min-width: 768px) {
+  .header-title {
+    font-size: 22px;
+  }
+
   .header-title:hover {
-    transform: rotate(45deg);
+    transform: scale(1.2);
+    transition: 1s;
   }
 
   .hamburger {
@@ -17,9 +22,18 @@
     line-height: 20px;
   }
 
+  .nav-links li:hover {
+    height: 1.3rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: #f0f1f4;
+    transition: 1s ease-in-out;
+  }
+
   .nav-links li a {
     text-decoration: none;
     color: #344563;
+    font-size: 19px;
   }
 
   .first-page {
@@ -57,7 +71,7 @@
   }
 
   .cards-container {
-    padding: 5rem 0;
+    padding: 10rem 0;
     gap: 10rem;
   }
 
@@ -66,13 +80,13 @@
     width: 80%;
   }
 
-  .card:nth-child(even) .card-img {
-    order: 1;
-  }
-
   .card .card-img {
     padding: 1rem;
     width: 48%;
+  }
+
+  .card:nth-child(even) .card-img {
+    order: 1;
   }
 
   .card-img img {
@@ -209,12 +223,10 @@
     margin-bottom: 2rem;
   }
 
-  
   /* Popup */
-
   .modal-container {
-    /* height: 100%;
-    overflow-y: scroll; */
+    overflow-y: scroll;
+    height: 100%;
   }
 
   .modal-container .card-para {
