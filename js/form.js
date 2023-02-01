@@ -12,7 +12,8 @@ function emailValidator(event) {
     document.getElementById('message').innerHTML = EMAIL_INVALID;
     document.getElementById('message').style.color = '#fdd';
     document.getElementById('message').style.fontSize = '20px';
-    document.getElementById('email').style.border = 'solid red';
+    document.getElementById('user_email').style.border = '1px solid #900';
+    document.getElementById('user_email').style.background = '#fdd';
     event.preventDefault();
   }
 }
