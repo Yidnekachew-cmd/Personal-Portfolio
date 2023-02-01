@@ -1,9 +1,10 @@
-function emailValidator() {
+function emailValidator(event) {
   const email = document.getElementById('user_email').value;
   const EMAIL_INVALID = 'Please enter a correct email address format';
   const pattern = /^([a-z\d-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/;
 
-  document.forms[0].onsubmit = function emailValidator(event) {
+//   document.forms[0].onsubmit = function emailValidator(event)
+   
     if (pattern.test(email)) {
       document.getElementById('message').innerHTML = 'Success!';
       document.getElementById('message').style.color = 'green';
@@ -18,4 +19,5 @@ function emailValidator() {
       event.preventDefault();
     }
   };
-}
+
+document.getElementById('form-btn').addEventListener('click', emailValidator);
