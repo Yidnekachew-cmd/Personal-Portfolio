@@ -209,14 +209,9 @@
     margin-bottom: 2rem;
   }
 
-
   /* Popup */
-
   .modal-container {
     display: flex;
-
-    /* height: 100%;
-    overflow-y: scroll; */
   }
 
   .modal-container .card-para {
