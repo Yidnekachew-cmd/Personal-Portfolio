@@ -109,14 +109,12 @@ header {
   background-image: url("../images/header-shapes\ mobile.svg");
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* margin-bottom: 3rem; */
   border-bottom-left-radius: 5rem;
 }
 
 .first-page .first-page-container {
   width: 90%;
-  height: max-content;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -145,7 +143,7 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-  margin-bottom: 1rem;
+  padding-top: -0.5rem;
   cursor: pointer;
   text-decoration: none;
 }
@@ -164,7 +162,7 @@ header {
   background: #e5e5e5;
   width: 100%;
   height: auto;
-  padding: 3rem 0;
+  padding: 8rem 0;
   display: flex;
   flex-direction: column;
   gap: 8rem;
@@ -263,10 +261,11 @@ header {
   color: #6070ff;
   padding-bottom: 2rem;
   cursor: pointer;
+  gap: 1rem;
+  display: flex;
 }
 
-.card-lang .lang {
-  float: left;
+.card-lang li {
   background: #ebebff;
   border-radius: 8px;
   width: max-content;
@@ -553,7 +552,7 @@ footer {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #b3bac5;
+  color: #43454a;
 }
 
 .form-btn {
@@ -581,13 +580,16 @@ footer {
 
 /* popup */
 
-
 .modal {
-  width: 100vw;
-  height: 100vh;
-  /* backdrop-filter: blur(6px);
+  width: 100%;
+  height: 100%;
+  display: none;
+  backdrop-filter: blur(6px);
+  background-color: rgb(27, 43, 183, 0.2);
   position: fixed;
-  top: 0; */
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .modal-container {
@@ -598,6 +600,7 @@ footer {
   margin: 0 auto;
   background-color: #fff;
   padding: 2rem;
+  position: relative;
 }
 
 .modal-container .modal-title {
@@ -606,9 +609,13 @@ footer {
   align-items: center;
 }
 
-.modal-title .close-btn {
+.close-btn {
   font-size: 2rem;
   cursor: pointer;
+  position: absolute;
+  top: 4%;
+  left: 88%;
+  right: 0;
 }
 
 .modal-container .card-info {
@@ -617,13 +624,18 @@ footer {
   justify-content: flex-start;
   gap: 1rem;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 16px;
   list-style-type: none;
 }
 
 .modal-img img {
   width: 100%;
+}
+
+.modal-container .card-para {
+  font-size: 1rem;
+  padding-bottom: 1rem;
 }
 
 .modal-container .card-lang {
@@ -645,6 +657,11 @@ footer {
   padding-bottom: 3rem;
 }
 
+.modal-btn a {
+  text-decoration: none;
+  width: 100%;
+}
+
 .live-btn,
 .source-btn {
   font-weight: 500;
@@ -657,7 +674,7 @@ footer {
   align-items: center;
   color: #396df2;
   border: 1px solid #396df2;
-  width: 45%;
+  width: 90%;
   padding: 1.2rem;
   height: 3vh;
   border-radius: 0.5rem;
@@ -679,6 +696,17 @@ footer {
   align-items: center;
 }
 
-.desktop {
-  display: none;
+.live-btn:hover,
+.source-btn:hover {
+  color: #fff;
+  background-color: #396df2;
+  transition: 1s ease-in-out;
+}
+
+.live-btn span:hover {
+  color: #fff;
+}
+
+.source-btn span:hover {
+  color: #fff;
 }
