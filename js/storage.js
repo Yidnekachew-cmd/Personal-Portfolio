@@ -10,8 +10,8 @@ formData.addEventListener('submit', (e) => {
   localStorage.setItem('userData', JSON.stringify(storage));
 });
 
-const retrievedObject = localStorage.getItem('userData');
-const getValue = JSON.parse(retrievedObject);
+const object = localStorage.getItem('userData');
+const getValue = JSON.parse(object);
 
 window.addEventListener('load', () => {
   if (localStorage.getItem('userData')) {
