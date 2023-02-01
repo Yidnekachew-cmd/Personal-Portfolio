@@ -598,6 +598,8 @@ footer {
   margin: 0 auto;
   background-color: #fff;
   padding: 2rem;
+  position: relative;
+  
 }
 
 .modal-container .modal-title {
@@ -606,9 +608,15 @@ footer {
   align-items: center;
 }
 
-.modal-title .close-btn {
+.close-btn {
+  /* display: none; */
   font-size: 2rem;
   cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 99%;
+  right: 0;
+  border: 1px solid red;
 }
 
 .modal-container .card-info {
