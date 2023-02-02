@@ -225,7 +225,7 @@
 
   /* Popup */
   .modal-container {
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
     top: 1%;
     height: 90%;
   }
@@ -251,10 +251,6 @@
     padding-bottom: 1rem;
   }
 
-  .modal-img {
-    overflow-y: scroll;
-  }
-
   .modal-container .card-content {
     margin-top: 1rem;
     height: max-content;
@@ -263,11 +259,13 @@
   .modal-container .card-para {
     width: 80%;
     height: auto;
+    padding-top: 1rem;
   }
 
   .modal-container .card-lang {
     flex-wrap: wrap;
     width: 70%;
+    padding-top: 1rem;
   }
 
   .modal-hr {
@@ -284,5 +282,10 @@
   .modal-content {
     display: flex;
     gap: 2rem;
+  }
+
+  .live-btn,
+  .source-btn {
+    width: 97%;
   }
 }

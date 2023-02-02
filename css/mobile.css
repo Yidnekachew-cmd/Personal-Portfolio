@@ -701,8 +701,8 @@ footer {
 .live-btn,
 .source-btn {
   font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 20px;
   text-align: center;
   letter-spacing: 0.03em;
   display: flex;

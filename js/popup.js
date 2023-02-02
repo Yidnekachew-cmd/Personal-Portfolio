@@ -188,6 +188,8 @@ const modalSource = document.querySelector('#source-btn');
 // popup for desktop
 for (let i = 0; i < cards.length; i += 1) {
   document.querySelector(`.card-btn-${i}`).addEventListener('click', () => {
+    const hamburger = document.querySelector('.hamburger');
+    hamburger.style.display = 'none';
     modal.style.display = 'block';
 
     let lang = '';
@@ -214,7 +216,8 @@ for (let i = 0; i < cards.length; i += 1) {
 for (let i = 0; i < moboCards.length; i += 1) {
   document.querySelector(`.card-${i}`).addEventListener('click', () => {
     modal.style.display = 'block';
-
+    const hamburger = document.querySelector('.hamburger');
+    hamburger.style.display = 'none';
     let lang = '';
     moboCards[i].languages.forEach((cards) => {
       lang = `${lang}<li class="${cards}">${cards}</li>`;
@@ -238,4 +241,6 @@ for (let i = 0; i < moboCards.length; i += 1) {
 // close button event listener
 closeBtn.addEventListener('click', () => {
   modal.style.display = 'none';
+  const hamburger = document.querySelector('.hamburger');
+  hamburger.style.display = 'flex';
 });
