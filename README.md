@@ -43,13 +43,41 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
+- HTML
+- CSS
+- JavaScript
+- Flexbox
+- Grid
+- Figma Design
+- Formspree service
+- (RWD) responsive web design using media query with mobile first principle
+- Animation and Transition
+- Use gitHub pages
+- Check the accessibility for this portfolio
+- Use the js DOM to close the mobile while clicking at the hamburger icon
+- Use the javascript objects and arrays to store the data for every project.
+
 ### Tech Stack <a name="tech-stack"></a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
 - Webhint
 - Styleint
-- Technologies used
+- Eslint
+- lighthouse
+- hint
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[To present the projects]**
+- **[To connect with the clients]**
+- **[To show my ability]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
@@ -90,6 +118,18 @@
 - GitHub: [Yidnekachew-cmd](https://github.com/Yidnekachew-cmd)
 - Twitter: [@Yidnekassahun](https://twitter.com/Yidnekassahun)
 - LinkedIn: [yidne kassahun](https://www.linkedin.com/in/yidnekachew-kassahun-2b817a24b/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[I will add my creativity on the UI]**
+- [ ] **[I will add add resposivity for the page by working to the break points]**
+- [ ] **[I will add functionallity for the cards.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
