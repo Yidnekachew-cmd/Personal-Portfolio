@@ -158,8 +158,8 @@ for (let i = 0; i < moboCards.length; i += 1) {
   <div class="card">
   <div class="card-content">
     <h2 class="card-title">${moboCards[i].title}</h2>
-    <ul class="card-info">
-     ${tech}
+    <ul class="card-info"> 
+    ${tech}
     </ul>
     <p class="card-para">${moboCards[i].text}</p>
     <ul class="card-lang">

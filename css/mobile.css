@@ -226,14 +226,14 @@ header {
   list-style-type: none;
 }
 
-.card-info .info {
+.card-info li {
   color: #7a869a;
   display: flex;
   align-items: center;
   gap: 0.4rem;
 }
 
-.card-info .bold-info {
+.card-info li:nth-child(1) {
   color: #344563;
 }
 
@@ -610,6 +610,12 @@ footer {
   align-items: center;
 }
 
+.modal-title .card-title {
+  font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+}
+
 .close-btn {
   font-size: 2rem;
   cursor: pointer;
@@ -625,9 +631,10 @@ footer {
   justify-content: flex-start;
   gap: 1rem;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 16px;
   list-style-type: none;
+  color: #344563;
 }
 
 .modal-img img {
