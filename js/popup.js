@@ -119,7 +119,7 @@ for (let i = 0; i < cards.length; i += 1) {
 
   let tech = '';
   cards[i].technology.forEach((techn) => {
-    tech = `${tech}<li class="${techn}">${techn}</li>`;
+    tech = `${tech}<li class="${techn}"><span></span>${techn}</li>`;
   });
 
   desktop.innerHTML += `
@@ -151,7 +151,7 @@ for (let i = 0; i < moboCards.length; i += 1) {
 
   let tech = '';
   moboCards[i].technology.forEach((techn) => {
-    tech = `${tech}<li class="${techn}">${techn}</li>`;
+    tech = `${tech}<li class="${techn}"><span></span>${techn}</li>`;
   });
 
   mobile.innerHTML += `
@@ -197,14 +197,14 @@ for (let i = 0; i < cards.length; i += 1) {
 
     let tech = '';
     cards[i].technology.forEach((techn) => {
-      tech = `${tech}<li class="${techn}">${techn}</li>`;
+      tech = `${tech}<li class="${techn}"><span></span>${techn}</li>`;
     });
 
     cardTitle.innerHTML = `${cards[i].title}`;
     cardInfo.innerHTML = `${tech}`;
     cardLang.innerHTML = `${lang}`;
     cardText.innerHTML = `${cards[i].textPopup}`;
-    cardImg.innerHTML = `<img src="${cards[i].images}" class="card-img">`;
+    cardImg.innerHTML = `<img src="${cards[i].images}">`;
     modalLive.setAttribute('href', cards[i].live);
     modalSource.setAttribute('href', cards[i].source);
   });
@@ -222,14 +222,14 @@ for (let i = 0; i < moboCards.length; i += 1) {
 
     let tech = '';
     moboCards[i].technology.forEach((techn) => {
-      tech = `${tech}<li class="${techn}">${techn}</li>`;
+      tech = `${tech}<li class="${techn}"><span></span>${techn}</li>`;
     });
 
     cardTitle.innerHTML = `${moboCards[i].title}`;
     cardInfo.innerHTML = `${tech}`;
     cardLang.innerHTML = `${lang}`;
     cardText.innerHTML = `${moboCards[i].textPopup}`;
-    cardImg.innerHTML = `<img src="${moboCards[i].images}" class="card-img">`;
+    cardImg.innerHTML = `<img src="${moboCards[i].images}">`;
     modalLive.setAttribute('href', moboCards[i].live);
     modalSource.setAttribute('href', moboCards[i].source);
   });
