@@ -5,10 +5,6 @@ const cards = [
     technology: ['Canopy', 'Back End Dev', 2015],
     images: './images/Snapshoot-1.svg',
     text: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    title: 'Tonic',
-    technology: ['Canopy', 'Back End Dev', 2015],
-    images: './images/Snapshoot-1.svg',
-    text: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     textPopup:
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus explicabo, nobis quia expedita fugit vel, est, dolorem aperiam error quibusdam itaque amet ipsa placeat numquam dolorum nemo tempore harum minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ratione corporis, neque, quae totam incidunt ut veniam estnobis sint delectus aliquid aut minima consequatur praesentium nemo impedit dolorum aspernatur.',
     langPopup: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstaps'],
@@ -149,7 +145,6 @@ for (let i = 0; i < cards.length; i += 1) {
 // looping through the cards of the mobile to add cards dynamically
 for (let i = 0; i < moboCards.length; i += 1) {
   let lang = '';
-  let lang = '';
   moboCards[i].languages.forEach((cards) => {
     lang = `${lang}<li class="${cards}">${cards}</li>`;
   });
@@ -178,9 +173,6 @@ for (let i = 0; i < moboCards.length; i += 1) {
     </div
     `;
 }
-
-
-
 
 // popup selections
 const cardTitle = document.querySelector('#card-title');
