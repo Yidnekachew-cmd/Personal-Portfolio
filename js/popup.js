@@ -9,7 +9,7 @@ const cards = [
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus explicabo, nobis quia expedita fugit vel, est, dolorem aperiam error quibusdam itaque amet ipsa placeat numquam dolorum nemo tempore harum minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ratione corporis, neque, quae totam incidunt ut veniam estnobis sint delectus aliquid aut minima consequatur praesentium nemo impedit dolorum aspernatur.',
     langPopup: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstaps'],
     live: 'https://yidnekachew-cmd.github.io/Personal-Portfolio/',
-    source: 'git@github.com:Yidnekachew-cmd/Personal-Portfolio.git',
+    source: 'https://github.com/Yidnekachew-cmd/Personal-Portfolio.git',
     closeBtn: '&times;',
     languages: ['html', 'css', 'javaScript'],
   },
@@ -22,7 +22,7 @@ const cards = [
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus explicabo, nobis quia expedita fugit vel, est, dolorem aperiam error quibusdam itaque amet ipsa placeat numquam dolorum nemo tempore harum minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ratione corporis, neque, quae totam incidunt ut veniam estnobis sint delectus aliquid aut minima consequatur praesentium nemo impedit dolorum aspernatur.',
     langPopup: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstaps'],
     live: 'https://yidnekachew-cmd.github.io/Personal-Portfolio/',
-    source: 'git@github.com:Yidnekachew-cmd/Personal-Portfolio.git',
+    source: 'https://github.com/Yidnekachew-cmd/Personal-Portfolio.git',
     closeBtn: '&times;',
     languages: ['html', 'Ruby on rails', 'css', 'javaScript'],
   },
@@ -35,7 +35,7 @@ const cards = [
       'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus explicabo, nobis quia expedita fugit vel, est, dolorem aperiam error quibusdam itaque amet ipsa placeat numquam dolorum nemo tempore harum minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ratione corporis, neque, quae totam incidunt ut veniam estnobis sint delectus aliquid aut minima consequatur praesentium nemo impedit dolorum aspernatur.',
     langPopup: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstaps'],
     live: 'https://yidnekachew-cmd.github.io/Personal-Portfolio/',
-    source: 'git@github.com:Yidnekachew-cmd/Personal-Portfolio.git',
+    source: 'https://github.com/Yidnekachew-cmd/Personal-Portfolio.git',
     closeBtn: '&times;',
     languages: ['html', 'Ruby on rails', 'css', 'javaScript'],
   },
@@ -49,7 +49,7 @@ const cards = [
     languages: ['html', 'Ruby on rails', 'css', 'javaScript'],
     langPopup: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstaps'],
     live: 'https://yidnekachew-cmd.github.io/Personal-Portfolio/',
-    source: 'git@github.com:Yidnekachew-cmd/Personal-Portfolio.git',
+    source: 'https://github.com/Yidnekachew-cmd/Personal-Portfolio.git',
     closeBtn: '&times;',
   },
 ];
@@ -66,7 +66,7 @@ const moboCards = [
     closeBtn: '&times;',
     languages: ['html', 'css', 'javaScript'],
     live: 'https://yidnekachew-cmd.github.io/Personal-Portfolio/',
-    source: 'git@github.com:Yidnekachew-cmd/Personal-Portfolio.git',
+    source: 'https://github.com/Yidnekachew-cmd/Personal-Portfolio.git',
   },
   {
     title: 'Multi-Post Stories',
@@ -78,7 +78,7 @@ const moboCards = [
       '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus explicabo, nobis quia expedita fugit vel, est, dolorem aperiam error quibusdam itaque amet ipsa placeat numquam dolorum nemo tempore harum minus.',
     closeBtn: '&times;',
     live: 'https://yidnekachew-cmd.github.io/Personal-Portfolio/',
-    source: 'git@github.com:Yidnekachew-cmd/Personal-Portfolio.git',
+    source: 'https://github.com/Yidnekachew-cmd/Personal-Portfolio.git',
   },
   {
     title: 'Tonic',
@@ -90,7 +90,7 @@ const moboCards = [
       '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus explicabo, nobis quia expedita fugit vel, est, dolorem aperiam error quibusdam itaque amet ipsa placeat numquam dolorum nemo tempore harum minus.',
     closeBtn: '&times;',
     live: 'https://yidnekachew-cmd.github.io/Personal-Portfolio/',
-    source: 'git@github.com:Yidnekachew-cmd/Personal-Portfolio.git',
+    source: 'https://github.com/Yidnekachew-cmd/Personal-Portfolio.git',
   },
   {
     title: 'Multi-Post Stories',
@@ -102,13 +102,11 @@ const moboCards = [
       '  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus explicabo, nobis quia expedita fugit vel, est, dolorem aperiam error quibusdam itaque amet ipsa placeat numquam dolorum nemo tempore harum minus.',
     closeBtn: '&times;',
     live: 'https://yidnekachew-cmd.github.io/Personal-Portfolio/',
-    source: 'git@github.com:Yidnekachew-cmd/Personal-Portfolio.git',
+    source: 'https://github.com/Yidnekachew-cmd/Personal-Portfolio.git',
   },
 ];
 
 // Class selections
-// const body = document.querySelector('body');
-// const cardSection = document.querySelector('#cards');
 const desktop = document.querySelector('.desktop');
 const mobile = document.querySelector('.mobile');
 
@@ -121,7 +119,7 @@ for (let i = 0; i < cards.length; i += 1) {
 
   let tech = '';
   cards[i].technology.forEach((techn) => {
-    tech = `${tech}<li class="${techn}">${techn}</li>`;
+    tech = `${tech}<li class="${techn}"><span></span>${techn}</li>`;
   });
 
   desktop.innerHTML += `
@@ -153,15 +151,15 @@ for (let i = 0; i < moboCards.length; i += 1) {
 
   let tech = '';
   moboCards[i].technology.forEach((techn) => {
-    tech = `${tech}<li class="${techn}">${techn}</li>`;
+    tech = `${tech}<li class="${techn}"><span></span>${techn}</li>`;
   });
 
   mobile.innerHTML += `
   <div class="card">
   <div class="card-content">
     <h2 class="card-title">${moboCards[i].title}</h2>
-    <ul class="card-info">
-     ${tech}
+    <ul class="card-info"> 
+    ${tech}
     </ul>
     <p class="card-para">${moboCards[i].text}</p>
     <ul class="card-lang">
@@ -176,68 +174,72 @@ for (let i = 0; i < moboCards.length; i += 1) {
     `;
 }
 
-// const modal = document.querySelector(".modal");
-// const modalDesktop = document.getElementById("modal-desktop");
+// popup selections
+const cardTitle = document.querySelector('#card-title');
+const cardInfo = document.querySelector('#card-info');
+const cardImg = document.querySelector('#modal-img');
+const cardText = document.querySelector('#card-para');
+const cardLang = document.querySelector('#card-lang');
+const closeBtn = document.querySelector('#close-btn');
+const modal = document.querySelector('#modal');
+const modalLive = document.querySelector('#live-btn');
+const modalSource = document.querySelector('#source-btn');
 
-// const modalMobile = document.querySelector(".mobile");
-// const closeIcon = document.querySelector("#close-btn");
+// popup for desktop
+for (let i = 0; i < cards.length; i += 1) {
+  document.querySelector(`.card-btn-${i}`).addEventListener('click', () => {
+    document.querySelector('.hamburger').style.display = 'none';
 
-// // event listener for the desktop
-// for (let i = 0; i < cards.length; i += 1) {
-//   document.querySelector(`.card-btn-${i}`).addEventListener("click", () => {
-//     console.log("clicked");
+    modal.style.display = 'block';
 
-//     let tech = "";
+    let lang = '';
+    cards[i].langPopup.forEach((cards) => {
+      lang = `${lang}<li class="${cards}">${cards}</li>`;
+    });
 
-//     cards[i].technology.forEach((cards) => {
-//       tech = `${tech}<li class="${cards}">${cards}</li>`;
-//     });
+    let tech = '';
+    cards[i].technology.forEach((techn) => {
+      tech = `${tech}<li class="${techn}"><span></span>${techn}</li>`;
+    });
 
-//     let lang = "";
+    cardTitle.innerHTML = `${cards[i].title}`;
+    cardInfo.innerHTML = `${tech}`;
+    cardLang.innerHTML = `${lang}`;
+    cardText.innerHTML = `${cards[i].textPopup}`;
+    cardImg.innerHTML = `<img src="${cards[i].images}">`;
+    modalLive.setAttribute('href', cards[i].live);
+    modalSource.setAttribute('href', cards[i].source);
+  });
+}
 
-//     cards[i].langPopup.forEach((cards) => {
-//       lang = `${lang}<li class="${cards}">${cards}</li>`;
-//     });
+// popup for mobile
+for (let i = 0; i < moboCards.length; i += 1) {
+  document.querySelector(`.card-${i}`).addEventListener('click', () => {
+    modal.style.display = 'block';
+    document.querySelector('.hamburger').style.display = 'none';
 
-//     modalDesktop.innerHTML = `
-//     <div class="modal-title">
-//           <h2 class="card-title">${cards[i].title}</h2>
+    let lang = '';
+    moboCards[i].languages.forEach((cards) => {
+      lang = `${lang}<li class="${cards}">${cards}</li>`;
+    });
 
-//         </div>
-//         <ul class="card-info">
-//          ${tech}
-//         </ul>
-//         <div class="modal-img">
+    let tech = '';
+    moboCards[i].technology.forEach((techn) => {
+      tech = `${tech}<li class="${techn}"><span></span>${techn}</li>`;
+    });
 
-//         </div>
-//         <div class="modal-content">
-//           <p class="card-para">
-//             ${cards[i].textPopup}
-//           </p>
-//           <div class="lang-and-btn">
-//             <ul class="card-lang">
-//              ${lang}
-//             </ul>
+    cardTitle.innerHTML = `${moboCards[i].title}`;
+    cardInfo.innerHTML = `${tech}`;
+    cardLang.innerHTML = `${lang}`;
+    cardText.innerHTML = `${moboCards[i].textPopup}`;
+    cardImg.innerHTML = `<img src="${moboCards[i].images}">`;
+    modalLive.setAttribute('href', moboCards[i].live);
+    modalSource.setAttribute('href', moboCards[i].source);
+  });
+}
 
-//             <div class="modal-btn">
-//               <button class="live-btn">
-//                 See live
-//                 <span><a href="${cards[i].live}"></a><img
-// src="./images/Icon - Export.svg" alt="" /></a></span>
-//               </button>
-//               <button class="source-btn">
-//                 See Source
-//                 <span><a href="${cards[i].source}"><img
-//  src="./images/github in button.svg" alt="" /></a></span>
-//               </button>
-//             </div>
-//           </div>
-//         </div>`;
-//   });
-
-// //   modalDesktop.appendChild(cardTitle);
-
-// //   modal.appendChild(modalDesktop);
-// //   body.appendChild(modal);
-
-// }
+// close button event listener
+closeBtn.addEventListener('click', () => {
+  modal.style.display = 'none';
+  document.querySelector('.hamburger').style.display = 'flex';
+});

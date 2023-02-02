@@ -20,7 +20,7 @@
         <ul class="hamburger">
           <li class="bar"><span></span></li>
           <li class="bar"><span></span></li>
-          <li class="bar"><span></span></li> 
+          <li class="bar"><span></span></li>
         </ul>
       </nav>
     </header>
@@ -48,8 +48,8 @@
       </div>
     </section>
     <section class="cards" id="cards">
-        <div class="desktop cards-container"></div>
-        <div class="mobile cards-container"></div>
+      <div class="desktop cards-container"></div>
+      <div class="mobile cards-container"></div>
     </section>
     <section class="about-page" id="about-page">
       <div class="about-container">
@@ -69,7 +69,7 @@
             <li><img src="./images/twitter.svg" alt="icon" /></li>
             <li><img src="./images/M.svg" alt="icon" /></li>
           </ul>
-          <button class="about-btn">Get my resume</button>
+          <button class="about-btn" type="button">Get my resume</button>
         </div>
         <div class="about-lang">
           <div class="languages">
@@ -135,7 +135,7 @@
               name="user_name"
               id="user_name"
               placeholder="user_name"
-             required
+              required
               maxlength="30"
             />
           </label>
@@ -163,48 +163,47 @@
               rows="5"
             ></textarea>
           </label>
-          
-          <button class="form-btn" id="form-btn" type="submit" >Get In Touch</button>
+
+          <button class="form-btn" id="form-btn" type="submit">
+            Get In Touch
+          </button>
         </form>
       </div>
     </footer>
-    <!-- <section class="modal">
-      <div class="desktop modal-container " id="modal-desktop">
-        <div class="close-btn" id="close-btn ">&times;</div>
-         <div class="modal-title">
-          <h2 class="card-title" id="card-title">heyooo</h2>
-          <div class="close-btn close-btn-${i}">&times;</div>
+    <section class="modal" id="modal">
+      <div class="desktop modal-desktop modal-container" id="modal-desktop">
+        <div class="modal-title">
+          <h2 class="card-title" id="card-title"></h2>
+          <div class="close-btn" id="close-btn">&times;</div>
         </div>
         <ul class="card-info" id="card-info"></ul>
-        <div class="modal-img">
-          <img src= "" alt="image">
+        <div class="modal-img" id="modal-img">
+          <img src="" alt="image" />
         </div>
         <div class="modal-content">
-          <p class="card-para" id="card-para">
-        
-          </p>
+          <p class="card-para" id="card-para"></p>
           <div class="lang-and-btn">
-            <ul class="card-lang" id="card-lang">
-            
-            </ul>
-
+            <ul class="card-lang" id="card-lang"></ul>
+            <hr class="modal-hr" />
             <div class="modal-btn">
-              <button class="live-btn">
-                See live
-                <span><a href=""></a><img src="./images/Icon - Export.svg" alt="" /></a></span>
-              </button>
-              <button class="source-btn">
-                See Source
-                <span><a href=""><img src="./images/github in button.svg" alt="" /></a></span>
-              </button>
+              <a id="live-btn" href="#live-btn">
+                <button type="button" class="live-btn">
+                  See live
+                  <span><img src="./images/live-icon.svg" alt="icon" /></span>
+                </button>
+              </a>
+              <a id="source-btn" href="#source-btn">
+                <button type="button" class="source-btn">
+                  See Source
+                  <span
+                    ><img src="./images/github-icon.svg" alt="github icon"
+                  /></span></button
+              ></a>
             </div>
           </div>
-        </div> -->
-      <!-- </div> -->
-      <!-- <div class="mobile modal-container"> -->
-        <!-- <div class="close-btn" id="close-btn ">&times;</div> -->
-      <!-- </div> -->
-    <!-- </section> --> 
+        </div>
+      </div>
+    </section>
     <script src="./js/menu.js"></script>
     <script src="./js/popup.js"></script>
     <script src="./js/form.js"></script>

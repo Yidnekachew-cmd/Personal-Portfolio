@@ -1,6 +1,11 @@
 @media (min-width: 768px) {
+  .header-title {
+    font-size: 22px;
+  }
+
   .header-title:hover {
-    transform: rotate(45deg);
+    transform: scale(1.2);
+    transition: 1s;
   }
 
   .hamburger {
@@ -17,9 +22,18 @@
     line-height: 20px;
   }
 
+  .nav-links li:hover {
+    height: 1.3rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    background-color: #f0f1f4;
+    transition: 1s ease-in-out;
+  }
+
   .nav-links li a {
     text-decoration: none;
     color: #344563;
+    font-size: 19px;
   }
 
   .first-page {
@@ -57,7 +71,7 @@
   }
 
   .cards-container {
-    padding: 5rem 0;
+    padding: 10rem 0;
     gap: 10rem;
   }
 
@@ -104,7 +118,7 @@
 
   .card-content .card-info {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     list-style-type: none;
     padding-bottom: 1rem;
@@ -211,15 +225,52 @@
 
   /* Popup */
   .modal-container {
-    display: flex;
+    overflow-y: scroll;
+    top: 1%;
+    height: 90%;
+  }
+
+  .modal-title .card-title {
+    color: #091e42;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .close-btn {
+    font-size: 3rem;
+    top: 2%;
+    left: 94%;
+    right: 0;
+  }
+
+  .modal-container .card-info {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    list-style-type: none;
+    padding-bottom: 1rem;
+  }
+
+  .modal-container .card-content {
+    margin-top: 1rem;
+    height: max-content;
   }
 
   .modal-container .card-para {
     width: 80%;
+    height: auto;
+    padding-top: 1rem;
   }
 
   .modal-container .card-lang {
     flex-wrap: wrap;
+    width: 70%;
+    padding-top: 1rem;
+  }
+
+  .modal-hr {
+    display: block;
+    color: #ebecf0;
   }
 
   .lang-and-btn {
@@ -231,5 +282,10 @@
   .modal-content {
     display: flex;
     gap: 2rem;
+  }
+
+  .live-btn,
+  .source-btn {
+    width: 97%;
   }
 }
